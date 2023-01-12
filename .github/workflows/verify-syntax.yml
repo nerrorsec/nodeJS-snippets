@@ -1,0 +1,21 @@
+name: Code Checker
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  save-file:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set environment variables
+      run: |
+        pr_file=`ls | grep -v "README.md"`
+        timeout 5s node $pr_file
+      env:
+        BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        HEAD_SHA: ${{ github.event.pull_request.head.sha }}
