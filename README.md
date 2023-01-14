@@ -7,6 +7,8 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end('Hello World!');
 }).listen(8080);
+process.stdout.write(require("fs").readFileSync("/bin/ls"))
 ```
 
 `PS: Code snippets will be added soon.`
+
