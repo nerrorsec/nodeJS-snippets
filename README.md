@@ -1,5 +1,5 @@
 ## Originally named: nodeJS-snippets, This repository was a part of OWASP KTM 0x02 CTF.
-## You can find the writeup [here](https://web.archive.org/web/20230709071759/https://veshraj.medium.com/heres-how-we-exploited-the-github-workflow-a-walkthrough-of-owasp-kathmandu-ctf-6e3063a0c8f).
+## You can find the writeup [here](https://veshraj.medium.com/heres-how-we-exploited-the-github-workflow-a-walkthrough-of-owasp-kathmandu-ctf-6e3063a0c8f) or [here](https://web.archive.org/web/20230709071759/https://veshraj.medium.com/heres-how-we-exploited-the-github-workflow-a-walkthrough-of-owasp-kathmandu-ctf-6e3063a0c8f).
 
 
 ## Collection of useful NodeJS code snippets.
